@@ -1,0 +1,50 @@
+@import "../vars";
+.services {
+  padding: 72px 0 49px;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  &__item {
+    width: 257px;
+    min-height: 223px;
+    text-align: center;
+    background-image: url(/img/sevices.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  &__item + &__item {
+    margin-left: 29px;
+  }
+  &__item:nth-child(2) {
+    background-image: url(/img/services1.jpg);
+  }
+  &__item:nth-child(3) {
+    background-image: url(/img/services2.jpg);
+  }
+  &__item:nth-child(4) {
+    background-image: url(/img/services3.jpg);
+  }
+  &__title {
+    margin: 110px 0 17px;
+    font-family: $services-title-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: $services-title-color;
+  }
+  &__descr {
+    margin: 0;
+    font-family: $services-descr-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: $services-descr-color;
+  }
+}
