@@ -1,0 +1,44 @@
+@import "../vars";
+.banner {
+  padding: 180px 0 205px;
+  background-image: url(/img/banner-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  &__inner {
+    text-align: center;
+  }
+  &__title {
+    margin: 0 0 40px;
+    font-family: $banner-main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: $banner-title-color;
+  }
+  &__descr {
+    margin: 0 0 50px;
+    font-family: $banner-main-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: $banner-descr-color;
+  }
+  &__btn {
+    width: 129px;
+    min-height: 45px;
+    padding: 16px 20px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    background-color: #3f8dbf;
+    font-family: $banner-btn-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: $banner-btn-color;
+  }
+}
