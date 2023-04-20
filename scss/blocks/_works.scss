@@ -1,0 +1,62 @@
+@import "../vars";
+.works {
+  padding: 50px 0 63px;
+  &__title {
+    margin: 0 0 22px;
+    font-family: $work-title-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: left;
+    text-transform: uppercase;
+    color: $work-accent-color;
+  }
+  &__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    list-style: none;
+  }
+  &__item {
+    width: 353.4px;
+    min-height: 392px;
+    background-image: url(/img/work.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  &__item:nth-child(2) {
+    background-image: url(/img/work1.jpg);
+  }
+  &__item:nth-child(3) {
+    background-image: url(/img/work2.jpg);
+  }
+  &__item-title {
+    margin: 275px 0 5px;
+    font-family: $work-item-title-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: $work-accent-color;
+  }
+  &__item-second-title {
+    margin: 0 0 13px;
+    font-family: $work-item-title-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    color: $work-item-second-title-color;
+  }
+  &__item-descr {
+    margin: 0;
+    font-family: $work-item-descr-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: $work-item-descr-color;
+  }
+}
