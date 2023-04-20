@@ -1,0 +1,104 @@
+@import "../vars";
+.footer {
+  padding: 47px 0 45px;
+  background-color: #1f1f1f;
+  &__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  &__item {
+    width: 255px;
+    min-height: 242px;
+  }
+  &__title {
+    margin: 0 0 20px;
+    font-family: $footer-title-font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: $footer-title-color;
+  }
+  &__descr {
+    margin: 0;
+    font-family: $footer-descr-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: $footer-descr-color;
+  }
+  &__first-list {
+    margin: 32px 0 0 0;
+    padding: 0 0 0 0px;
+    list-style: none;
+  }
+  &__first-item {
+    display: flex;
+  }
+  &__svg {
+    margin-top: 3px;
+    margin-right: 6px;
+  }
+  &__item-adress {
+    color: #fff;
+  }
+  &__second-list {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 27px;
+    list-style: none;
+  }
+  &__second-item {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    svg {
+      margin-top: 5px;
+    }
+  }
+  &__second-item + &__second-item {
+    margin-top: 35px;
+  }
+  &__third-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  &__third-item + &__third-item {
+    margin-top: 31px;
+  }
+  &__third-second--descr {
+    margin-top: 5px;
+    font-family: $footer-second-descr-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: $footer-descr-color;
+  }
+  &__four-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  &__four-item + &__four-item {
+    margin-top: 35px;
+  }
+  &__line {
+    margin-top: 50px;
+    border: 2px solid #353535;
+  }
+  &__bottom-descr {
+    margin: 45px 0 0;
+    font-family: $footer-descr-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: $footer-descr-color;
+  }
+}
