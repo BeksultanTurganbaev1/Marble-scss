@@ -1,0 +1,19 @@
+@import "../vars";
+.testimonials {
+  padding: 67px 0 92px;
+  background-image: url(/img/testimonilas-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center 67px;
+  background-color: #efefef;
+  &__descr {
+    width: 875px;
+    margin: 67px auto 0;
+    text-align: center;
+    font-family: $testimonials-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: $testimonials-color;
+  }
+}
